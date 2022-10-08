@@ -119,10 +119,10 @@ body {
 }
 
 .input-box label, .gender-title h6 {
-font-size: 0.75rem;
-font-weight: 600;
-color: #000000c0;
-margin-bottom: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0;
+    margin-bottom: 0.5rem;
 
 }
 
@@ -206,17 +206,17 @@ margin-bottom: 0.5rem;
         max-height: 12rem;
         overflow-y: scroll;
         flex-wrap: nowrap;
-    }
-    .gender-inputs {
+        }
+        .gender-inputs {
         margin-top: 2rem;
-    }
-    .gender-group {
+        }
+        .gender-group {
         flex-direction: column;
-    }
-    .gender-title h6 {
+        }
+      .gender-title h6 {
         margin: 0;
-    }
-    .gender-input {
+     }
+     .gender-input {
         margin-top: 0.5rem;
-    }
+     }
 }

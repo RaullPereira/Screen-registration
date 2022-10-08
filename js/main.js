@@ -1,3 +1,4 @@
+//ABRIR PAGINA DE LOGIN
 var button = document.querySelector(".login-button");
 
 button.onclick = function() {
