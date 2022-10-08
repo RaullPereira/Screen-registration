@@ -38,7 +38,7 @@ body {
 }
 
 .form {
-    width: 50%;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,27 +54,23 @@ body {
     justify-content: space-between;
 }
 
-.login-button {
-    display: flex;
-    align-items: center;
-}
-
 .login-button button {
+    width: 100%;
+    margin-top: 0.4rem;
     border: none;
     background-color: #76c1ff;
-    padding: 0.4rem 1rem;
+    padding: 0.62rem;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+
 }
 
 .login-button button:hover {
     background-color: #5cb5fd;
-}
-
-.login-button button a {
-    text-decoration: none;
-    font-weight: 500;
-    color: #fff;
 }
 
 .form-header h1::after {
@@ -89,10 +85,10 @@ body {
 }
 
 .input-group {
+    flex-direction: column;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 1rem 0;
+ 
 }
 
 .input-box {
@@ -183,7 +179,7 @@ margin-bottom: 0.5rem;
 }
 
 
-@media screen and (max-width: 1330px) {
+@media screen and (max-width: 900px) {
     .form-image {
         display: none;
     }
@@ -195,16 +191,19 @@ margin-bottom: 0.5rem;
     }
 }
 
-@media screen and (max-width: 1064px) {
+@media screen and (max-width: 580px) {
     .container {
         width: 90%;
         height: auto;
     }
     .input-group {
-        flex-direction: column;
+        flex-direction: row;
+        display: grid;
         z-index: 5;
-        padding-right: 5rem;
-        max-height: 10rem;
+        padding-right: 9rem;
+        
+        max-width: 50rem;
+        max-height: 12rem;
         overflow-y: scroll;
         flex-wrap: nowrap;
     }
